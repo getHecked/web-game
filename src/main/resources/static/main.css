@@ -1,0 +1,25 @@
+body {
+    background-color: #f5f5f5;
+}
+
+#main-content {
+    max-width: 940px;
+    padding: 2em 3em;
+    margin: 0 auto 20px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.cursor {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 2px solid #ff0000;
+    opacity: 0.5;
+    left: -100px;
+    top: -100px;
+}
